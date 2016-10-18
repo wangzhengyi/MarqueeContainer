@@ -9,7 +9,7 @@
 
 ## Example
 
-![MarqueeContainer]()
+![MarqueeContainer](https://github.com/wangzhengyi/MarqueeContainer/blob/master/screenshots/ezgif.com-video-to-gif.gif)
 
 # Gradle Dependency
 
