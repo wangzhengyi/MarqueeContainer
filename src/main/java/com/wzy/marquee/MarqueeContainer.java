@@ -200,6 +200,7 @@ public class MarqueeContainer extends FrameLayout implements View.OnClickListene
     protected void initNetworkImages(List<String> urls) {
         for (int  i = 0; i < mImagesCount + 2; i ++) {
             ImageView img = new ImageView(getContext());
+            img.setScaleType(ImageView.ScaleType.FIT_XY);
             img.setOnClickListener(this);
             ImageLoader.ImageListener imageListener = ImageLoader.getImageListener(
                     img, mDefaultImageResId, mErrorImageResId);
