@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MarqueeContainer">
+        <attr name="defaultImageResId" format="reference" />
+        <attr name="errorImageResId" format="reference" />
+        <attr name="indicatorEnableResId" format="reference" />
+        <attr name="indicatorDisableResId" format="reference" />
+    </declare-styleable>
+</resources>
